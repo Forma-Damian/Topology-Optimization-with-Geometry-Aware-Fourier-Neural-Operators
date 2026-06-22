@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from skfem import (
     Basis, BilinearForm, ElementQuad0, ElementQuad1, LinearForm,
-    MeshQuad, asm, condense, solve,
+    MeshQuad, asm, condense, solve
 )
 from skfem.helpers import dot, grad
 
